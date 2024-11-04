@@ -1,0 +1,38 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .input-container {
+            margin: 20px;
+        }
+        .input-field {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+        .input-label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: block;
+        }
+    </style>
+    <title>Input Fields Example</title>
+</head>
+<body>
+    <div class="input-container">
+        <label class="input-label" for="name">الاسم:</label>
+        <input type="text" id="name" class="input-field" placeholder="أدخل اسمك هنا">
+        
+        <label class="input-label" for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" class="input-field" placeholder="أدخل بريدك الإلكتروني هنا">
+        
+        <label class="input-label" for="password">كلمة المرور:</label>
+        <input type="password" id="password" class="input-field" placeholder="أدخل كلمة المرور هنا">
+    </div>
+</body>
+</html>
